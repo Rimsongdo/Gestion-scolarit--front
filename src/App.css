@@ -1,0 +1,64 @@
+body{
+  width:100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page1{
+  background-color: azure;
+  height: 130vh;
+}
+.form-group{
+  padding: 2%;
+  margin-bottom: 2%;
+}
+.form-group input,.form-group select{
+  border:solid 3px black;
+}
+.UserForm{
+  border: solid 12px rgb(140, 236, 236);
+  border-radius: 10px;
+  background-color: rgb(140, 236, 236);
+  margin-top: 10%;
+  width: 40%;
+  margin-left:30%;
+  margin-right: 30%;
+}
+
+.bienvenu{
+  margin-top: 6%;
+  margin-bottom: 3%;
+  text-align: center;
+  color: blue;
+ 
+}
+
+.ligne{
+  display: flex;
+  margin-left: 25%;
+  width: 50%;
+  margin-right:25% ;
+  padding:4%;
+}
+.ligne button{
+  margin-left: 5%;
+}
+.adminBoard{
+  display: flex;
+  flex-direction: column;
+}
+.adminBoard button{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 3%;
+  border: solid 3px red;
+  color: rgb(0, 0, 0);
+  background-color: rgb(214, 132, 132);
+}
+
+.adminBoard button:hover{
+  background-color: rgb(244, 178, 178);
+  border:solid 3px rgb(239, 101, 101);
+  
+}
